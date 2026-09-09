@@ -193,13 +193,18 @@ body {
     max-width: 450px;
 }
 
+.project-gallery.video-gallery {
+    display: block;
+    width: 100%;
+}
+
 .project-video {
     width: 100%;
-    height: 500px;
-    object-fit: contain;
-    border-radius: 8px;
-    background: #111;
+    height: auto;
+    max-height: 600px;
     display: block;
+    border-radius: 10px;
+    background: #111;
 }
 
 
