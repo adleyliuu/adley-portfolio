@@ -237,7 +237,7 @@ body {
 .project-gallery img {
     width: 100%;
     height: 420px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
     background: #e9e9e7;
     transition: 0.4s;
